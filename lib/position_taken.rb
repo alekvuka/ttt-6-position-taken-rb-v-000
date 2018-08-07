@@ -4,9 +4,10 @@ def position_taken?(board, index)
   index = index.to_i - 1
   character = board[index]
 
-  if character == "X" || position == "O"
+  if character == "X" || character == "O"
     return true
   else
     return false
   end
+
 end
