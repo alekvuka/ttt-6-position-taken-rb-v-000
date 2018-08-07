@@ -1,18 +1,14 @@
 # code your #position_taken? method here!
 def position_taken?(position)
   if position == " "
-    return false 
+    return false
   elsif position == ""
-    return false 
+    return false
   elsif position == nil
-    return fasle 
+    return fasle
   elsif position == "X" || position == "O"
-    return true 
-  else 
-    return false 
-  end 
-end 
-
-    
-    
-  
+    return true
+  else
+    return false
+  end
+end
