@@ -1,8 +1,8 @@
 # code your #position_taken? method here!
-def position_taken?(board, position)
+def position_taken?(board, index)
 
-  position = position.to_i - 1
-  character = noard[position]
+  index = index.to_i - 1
+  character = =board[index]
 
   if character == " "
     return false
